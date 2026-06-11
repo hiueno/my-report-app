@@ -5,7 +5,7 @@ import os
 
 # 1. Geminiの初期設定
 # ※ご自身の「AQ.Ab8...」から始まるAPIキーを貼り付けてください。
-GOOGLE_API_KEY =
+GOOGLE_API_KEY = "SECRET_KEY"
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
 # 2. パスワード保護機能（簡易認証）
